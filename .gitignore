@@ -4,6 +4,9 @@
 *.qws
 *.qar
 *.qarlog
+*.summary
+*.rpt
+*.wlf
 db/
 incremental_db/
 output_files/
