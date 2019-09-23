@@ -7,6 +7,8 @@
 *.summary
 *.rpt
 *.wlf
+
+#for folders not only under the root
 db/
 incremental_db/
 output_files/
