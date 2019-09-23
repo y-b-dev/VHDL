@@ -1,0 +1,205 @@
+# Reading C:/altera_free/91/modelsim_ase/tcl/vsim/pref.tcl 
+cd 10
+vlib work
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+# ** Error: secgen.vhd(10): (vcom-1136) Unknown identifier "clk_freq".
+# ** Error: secgen.vhd(10): Type error resolving infix expression "-" as type std.standard.integer.
+# ** Error: secgen.vhd(11): (vcom-1136) Unknown identifier "clk_freq".
+# ** Error: secgen.vhd(11): Bad expression in left operand of infix expression "-".
+# ** Error: secgen.vhd(11): Type error resolving infix expression "-" as type std.standard.integer.
+# ** Error: secgen.vhd(18): Illegal target for signal assignment.
+# ** Error: secgen.vhd(18): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(20): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(20): Type error resolving infix expression "<=" as type std.standard.boolean.
+# ** Error: secgen.vhd(21): Illegal target for signal assignment.
+# ** Error: secgen.vhd(21): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(23): Illegal target for signal assignment.
+# ** Error: secgen.vhd(23): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(23): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(27): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(27): Type error resolving infix expression "=" as type std.standard.boolean.
+# ** Error: secgen.vhd(28): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(29): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(28): Bad expression in left operand of infix expression "or".
+# ** Error: secgen.vhd(29): Bad expression in right operand of infix expression "or".
+# ** Error: secgen.vhd(29): Type error resolving infix expression "or" as type std.standard.boolean.
+# ** Error: secgen.vhd(45): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+# ** Error: secgen.vhd(18): Illegal target for signal assignment.
+# ** Error: secgen.vhd(18): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(20): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(20): Type error resolving infix expression "<=" as type std.standard.boolean.
+# ** Error: secgen.vhd(21): Illegal target for signal assignment.
+# ** Error: secgen.vhd(21): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(23): Illegal target for signal assignment.
+# ** Error: secgen.vhd(23): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(23): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(27): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(27): Type error resolving infix expression "=" as type std.standard.boolean.
+# ** Error: secgen.vhd(28): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(29): (vcom-1136) Unknown identifier "count".
+# ** Error: secgen.vhd(28): Bad expression in left operand of infix expression "or".
+# ** Error: secgen.vhd(29): Bad expression in right operand of infix expression "or".
+# ** Error: secgen.vhd(29): Type error resolving infix expression "or" as type std.standard.boolean.
+# ** Error: secgen.vhd(45): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+do secgen.do
+# ------- START OF MACRO ------- 
+# ** Error: No Design Loaded!
+# Executing ONERROR command at macro ./secgen.do line 8
+vsim secgen
+# vsim secgen 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.secgen(arc_secgen)
+do secgen.do
+# ------- START OF MACRO ------- 
+# ------- END OF MACRO ------- 
+# The time now is 500000 ps  
+quit -sim
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+vsim secgen
+# vsim secgen 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.secgen(arc_secgen)
+do secgen.do
+# ------- START OF MACRO ------- 
+# ------- END OF MACRO ------- 
+# The time now is 1100000 ps  
+quit -sim
+vcom secgen.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity secgen
+# -- Compiling architecture arc_secgen of secgen
+vsim secgen
+# vsim secgen 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.secgen(arc_secgen)
+do secgen.do
+# ------- START OF MACRO ------- 
+# ------- END OF MACRO ------- 
+# The time now is 1100000 ps  
+quit -sim
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60
+# ** Error: counter60.vhd(10): near "integer": expecting ':'
+# ** Error: counter60.vhd(15): Illegal target for signal assignment.
+# ** Error: counter60.vhd(15): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(18): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(18): Type error resolving infix expression "<" as type std.standard.boolean.
+# ** Error: counter60.vhd(19): Illegal target for signal assignment.
+# ** Error: counter60.vhd(19): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(19): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(21): Illegal target for signal assignment.
+# ** Error: counter60.vhd(21): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(29): Illegal target for signal assignment.
+# ** Error: counter60.vhd(29): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(32): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(32): Type error resolving infix expression "=" as type std.standard.boolean.
+# ** Error: counter60.vhd(33): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(33): Type error resolving infix expression "<" as type std.standard.boolean.
+# ** Error: counter60.vhd(34): Illegal target for signal assignment.
+# ** Error: counter60.vhd(34): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(34): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(36): Illegal target for signal assignment.
+# ** Error: counter60.vhd(36): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(42): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(42): Bad expression in right operand of infix expression "and".
+# ** Error: counter60.vhd(42): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(42): Bad expression in left operand of infix expression "and".
+# ** Error: counter60.vhd(42): Bad expression in right operand of infix expression "and".
+# ** Error: counter60.vhd(42): Type error resolving infix expression "and" as type std.standard.boolean.
+# ** Error: counter60.vhd(43): (vcom-1136) Unknown identifier "cnt".
+# ** Error: counter60.vhd(44): (vcom-1136) Unknown identifier "cnt10".
+# ** Error: counter60.vhd(45): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60
+# ** Error: counter60.vhd(43): Signal "cnt" is type std.standard.integer; expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: counter60.vhd(44): Signal "cnt10" is type std.standard.integer; expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: counter60.vhd(45): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60
+# ** Error: counter60.vhd(44): near "<=": expecting "=>" or '|' or '!'
+# ** Error: counter60.vhd(45): near "<=": expecting "=>" or '|' or '!'
+# ** Error: counter60.vhd(46): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60
+# ** Error: counter60.vhd(44): near "<=": expecting "=>" or '|' or '!'
+# ** Error: counter60.vhd(45): near "<=": expecting "=>" or '|' or '!'
+# ** Error: counter60.vhd(46): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60
+# ** Error: counter60.vhd(44): (vcom-1076) OTHERS choice can not be used in unconstrained array aggregate.
+# ** Error: counter60.vhd(45): near "<=": expecting "=>" or '|' or '!'
+# ** Error: counter60.vhd(46): VHDL Compiler exiting
+# C:/altera_free/91/modelsim_ase/win32aloem/vcom failed.
+vcom counter60.vhd
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity counter60
+# -- Compiling architecture arc_counter60 of counter60

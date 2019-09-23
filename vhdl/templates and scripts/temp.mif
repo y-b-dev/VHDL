@@ -1,0 +1,12 @@
+-- a simple mif file
+WIDTH =   8 ;   -- Memory depth and width are required
+DEPTH = 256 ;  % Enter in decimal number %
+
+ADDRESS_RADIX = DEC ; -- address & data radixes rquired
+DATA_RADIX    = DEC ; -- Enter BIN, DEC(UNS) , HEX, or OCT
+
+CONTENT BEGIN
+   0         :   255       ;   % Single address with data 255 (FF) %
+   1         :   11 22 33  ;   -- range starting from specific address 1 (2,3)
+   [4..255]  :   69        ;   -- range (evry address) from 4 to 255
+END ; 

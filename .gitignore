@@ -1,0 +1,10 @@
+*.qsf
+*.qpf
+*.bak
+*.qws
+*.qar
+*.qarlog
+db/
+incremental_db/
+output_files/
+work/
